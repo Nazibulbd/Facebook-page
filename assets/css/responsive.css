@@ -1,0 +1,140 @@
+@media (max-width:1100px) {
+    .search_area .search{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+   .search_area .search input{
+    display: none;
+   }
+   nav ul li:nth-child(6){
+    display: block;
+    }
+   nav ul li:nth-child(5){
+    display: none;
+    }
+
+   .profile_section ul li:nth-child(2){
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .profile_section ul li:nth-child(5){
+    
+}
+.profile_section ul li:nth-child(1){
+    display: none;
+}
+.left_side{
+    display: none;
+}
+
+}
+@media (max-width:920px){
+    header{
+        height: 56px;
+    }
+    .search_area .menu_toggler span{
+        display: block;
+       }
+       nav ul li{
+        display: none;
+       }
+       nav ul li:nth-child(6){
+        display: none;
+        }
+      
+    nav ul li a{
+        display: inline-block;
+        padding: 7px 30px;
+        border-radius: 8px;
+        transition: 0.3s;
+        position: relative;
+    }
+    nav ul li a:hover{
+        background-color: #4f5050;
+    }
+    nav ul li a::after {
+        content: attr(data-tag);
+      
+        font-size: 20px;
+        padding: 8px 10px;
+    }
+   
+
+}
+@media (max-width:850px){
+
+        .right_side{
+            display: none;
+        }
+}
+
+@media (max-width:600px){
+    .middile_section .story_wallpaper .story:nth-child(4){
+        display: none;
+    }
+    .middile_section .post_creation .bottom ul li{
+        font-size: 10px;
+    }
+    .middile_section .post_creation .bottom ul li img{
+        width: 18px;
+        height: 18px;
+    }
+    .middile_section .story_wallpaper .story{
+        height: 180px;
+        width: 100px;
+    }
+    .middile_section .story_wallpaper .create_story{
+        height: 180px;
+        width: 100px;
+    }
+    .middile_section .room_area ul li:nth-child(8){
+        display: none;
+    }
+}
+@media (max-width:550px){
+
+        .profile_section ul li{
+            display: none;
+        }
+        .profile_section ul li:nth-child(2){
+            display: none;
+        }
+        .profile_section ul li:nth-child(5){
+            display: block;
+        }
+    .search_area .menu_toggler span{
+        display: none;
+       }
+    .middile_section .room_area ul li:nth-child(7){
+        display: none;
+    }
+}
+@media (max-width:500px){
+    .middile_section .story_wallpaper .story:nth-child(5){
+        display: none;
+    }
+    .middile_section .post_creation .bottom ul li:nth-child(3){
+        display: none;
+    }
+    .middile_section .room_area ul li:nth-child(6){
+        display: none;
+    }
+
+}
+@media (max-width:450px){
+    .middile_section .room_area ul li:nth-child(5){
+        display: none;
+    }
+    
+}
+@media (max-width:425px){
+    .middile_section .room_area ul li:nth-child(4){
+        display: none;
+    }
+  
+   
+  
+}
